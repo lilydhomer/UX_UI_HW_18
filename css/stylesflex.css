@@ -87,6 +87,7 @@ body {
     margin: 0% auto 40vh auto;
     position: relative;
     top: 150px;
+    margin-bottom: 10%;
 }
 
 .content img {
@@ -114,7 +115,7 @@ footer {
     position: absolute;
     width: 100vw;
     height: 40px;
-
+    bottom: -10px;
     padding: 1%;
     left: 50%;
     right: 50%;
@@ -161,56 +162,21 @@ mark {
     padding: 0px 5px;
  }
 
-/* Index Styles */
-
-.projectDetails{
-    width: 100%;
-}
-
-.intro {
-    width:70%;
-    margin-bottom: 8%;
-}
-.greeting {
-    font-size: 2.5em;
-}
-
-
+    /* About Styles */
 .projectHeader {
     background-color: #6971c4;
     color: #ffffff;
     position: relative;
-    padding: 3.5% 1% 3% 13%;
-    margin: 0% 0% 0% 0%;
     z-index: 99;
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
+    width: 120vw;
+    left: -20%;
+    padding: 3% 0% 3% 20%;
 }
-
-.project1, .project2, .project3 {
-    padding-bottom: 6%;
-    
+  
+.projects {
+    display: flex;
+    margin-bottom: 25%;
 }
-
-    /* About Styles */
-
-
-    .box {
-        position: relative;
-        margin-bottom: -210px;
-    }
-    .aboutHeroimg {
-    display: inline-block;
-    position: relative;
-    padding: 1%;
-    left: 30%;
-    width: 70%;
-    height: auto;
-    }
 
 .aboutDescription {
     display: inline-block;
@@ -218,7 +184,6 @@ mark {
     background-color: #2e2e2e;
     width: 50%;
     left: 10%;
-    top: -400px;
     color: #ffffff;
     padding: 4%;
     font-size: 2rem;
@@ -226,20 +191,23 @@ mark {
 .skills {
     display: inline-block;
     position: relative;
-    width:24%;
+    width: 24%;
     background-color: #d4d4d475;
     margin: -8% 5% -5% 0%;
-    padding: 8% 2% 2% 2%;
+    padding: 7% 2% 2% 2%;
     left: -2%;
 }
 
 .skill1 {
+    width: 33%;
     z-index: 100;
 
 }
 .skill2 {
+    width: 33%;
     z-index: 98;
 }
 .skill3 {
+    width: 33%;
     z-index: 97;
 }
