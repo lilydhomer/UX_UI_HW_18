@@ -84,7 +84,7 @@ body {
 }
 .content {
     width: 100vw;
-    margin: 0% auto 40vh auto;
+    margin: 0% auto;
     position: relative;
     top: 150px;
 }

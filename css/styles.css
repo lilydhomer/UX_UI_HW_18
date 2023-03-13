@@ -1,5 +1,8 @@
 /* Navigation styles */
 
+.hamburgerMenu {
+    display: none;
+}
 .navigation {
     width: 98%;
     top: 0;
@@ -84,9 +87,10 @@ body {
 }
 .content {
     width: 80%;
-    margin: 0% auto 40vh auto;
+    margin: 0% auto;
     position: relative;
     top: 150px;
+
 }
 
 .content img {
@@ -114,7 +118,6 @@ footer {
     position: absolute;
     width: 100vw;
     height: 40px;
-
     padding: 1%;
     left: 50%;
     right: 50%;
@@ -193,9 +196,13 @@ mark {
 
 .project1, .project2, .project3 {
     padding-bottom: 6%;
+    margin-bottom: 20%;
     
 }
 
+.projects {
+    margin-bottom: 30%;
+}
     /* About Styles */
 
 
@@ -242,4 +249,104 @@ mark {
 }
 .skill3 {
     z-index: 97;
+}
+
+@media only screen and (max-width: 600px) {
+.content {
+    width: 80%;
+    margin: 0% auto;
+    top: 150px;
+    
+    }
+.aboutHeroimg {
+display: block;
+position: relative;
+width:80vw;
+left: 0;
+}
+.aboutDescription{
+    display: block;
+    position: relative;
+    width:72vw;
+    left: 0;
+    top:0;}
+
+    .skills {
+        display: inline-block;
+        position: relative;
+        width:100%;
+        background-color: #d4d4d475;
+        margin: 8% 5% 3% 0%;
+        padding-left: 10px;
+    }
+    
+    .skill1, .skill2, .skill3{
+        padding-left: 10px;
+    }
+.projects {
+    display: block;
+    margin-top: 50%;
+    margin-bottom: 50%;
+    
+}
+.logo {
+        padding: 1%;
+        text-align: center;
+        height: 50px;
+        margin: 0 40%;
+        top: 10px;
+        background-image: url("../images/logo.png");
+        background-size: 60px;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: inline-block;
+        position: fixed;
+        width: 16%;
+}
+.desktop-nav {
+    display: none;
+}
+.hamburgerMenu {
+    display: block;
+    position: fixed;
+    width: 10%;
+    top: 10px;
+    right: 20px;
+    opacity: 80%;
+}
+.hamburgerMenuopen {
+    display: block;
+    position: fixed;
+    width: 10%;
+    top: 10px;
+    right: 20px;
+    opacity: 80%;
+}
+.hamburgerMenuclosed {
+    display: block;
+    position: fixed;
+    width: 10%;
+    top: 10px;
+    right: 20px;
+    opacity: 80%;
+}
+
+footer {
+    display: relative;
+    bottom: 0;
+    padding-bottom: 8%;
+
+}
+
+.mainMenu {
+    font-size: 2rem;
+    list-style-type: none;
+    left: 0;
+}
+
+.mainMenu li {
+    margin-top: 5%;
+    margin-left: -40px;
+
+}
 }
