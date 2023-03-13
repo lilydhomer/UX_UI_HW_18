@@ -318,6 +318,7 @@ left: 0;
     display: block;
     position: fixed;
     width: 10%;
+    max-width: 60px;
     top: 10px;
     right: 20px;
     opacity: 80%;
