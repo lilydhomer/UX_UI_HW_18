@@ -1,5 +1,9 @@
 /* Navigation styles */
 
+
+.hamburgerMenu {
+    display: none;
+}
 .navigation {
     width: 98%;
     top: 0;
@@ -211,3 +215,112 @@ mark {
     width: 33%;
     z-index: 97;
 }
+
+
+@media only screen and (max-width: 800px) {
+    .content {
+        width: 80%;
+        margin: 0% auto;
+        top: 150px;
+        }
+    .aboutHeroimg {
+    display: block;
+    position: relative;
+    width:80vw;
+    left: 0;
+    }
+    .aboutDescription{
+        display: block;
+        position: relative;
+        width:72vw;
+        left: 0;
+        top:0;}
+    
+        .skills {
+            display: block;
+            position: relative;
+            width:100%;
+            background-color: #d4d4d475;
+            margin: 0% 5% 3% 0%;
+            padding-left: 10px;
+        }
+        
+        .skill1, .skill2, .skill3{
+            padding-left: 10px;
+            display: block;
+        }
+    .projects {
+        display: block;
+
+        margin-bottom: 50%;
+        
+    }
+    .logo {
+            padding: 1%;
+            text-align: center;
+            height: 50px;
+            margin: 0 40%;
+            top: 10px;
+            background-image: url("../images/logo.png");
+            background-size: 60px;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: inline-block;
+            position: fixed;
+            width: 16%;
+    }
+    .desktop-nav {
+        display: none;
+    }
+    .hamburgerMenu {
+        display: block;
+        position: fixed;
+        width: 10%;
+        top: 10px;
+        right: 20px;
+        opacity: 80%;
+    }
+    .hamburgerMenuopen {
+        display: block;
+        position: fixed;
+        width: 10%;
+        top: 10px;
+        right: 20px;
+        opacity: 80%;
+    }
+    .hamburgerMenuclosed {
+        display: block;
+        position: fixed;
+        width: 10%;
+        top: 10px;
+        right: 20px;
+        opacity: 80%;
+    }
+    
+    footer {
+        background-color: #383738;
+        position: relative;
+        display: block;
+        width: 100vw;
+        height: 40px;
+        padding: 2%;
+        left: 50%;
+        right: 50%;
+        margin-left: -50vw;
+        margin-right: -50vw;
+        padding-bottom: 10%;
+    }
+    
+    
+    .mainMenu {
+        font-size: 2rem;
+        list-style-type: none;
+        left: 0;
+    }
+    
+    .mainMenu li {
+        margin-top: 5%;
+        margin-left: -40px;
+    
+    }
+    }

@@ -251,7 +251,7 @@ mark {
     z-index: 97;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
 .content {
     width: 80%;
     margin: 0% auto;
